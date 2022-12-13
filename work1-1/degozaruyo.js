@@ -5,6 +5,9 @@ function f(n){
       if(c.nodeType == Node.TEXT_NODE){
         c.textContent = c.textContent.replace(/です。/g, "でござるよ。");
       }
+      if(c.nodeType == Node.TEXT_NODE){
+        c.textContent = c.textContent.replace(/ます。/g, "まっせ。");
+      }
       else{
         f(c);
       }
