@@ -1,0 +1,21 @@
+{
+    "name": "Sample Chrome Extension",
+    "description": "Remove Unnecessary Parts from Tabelog etc.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://tabelog.com/*"],
+        "js": ["content_script.js"]
+      },
+      {
+        "matches": ["https://outlook.office.com/mail/*"],
+      "css": ["mystyle.css"]
+      },
+      {
+        "matches": ["https://fueisha.com/knowledgeonline/deumasuchou#:~:text=%E4%BD%9C%E6%88%90%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82-,%E3%80%8C%E3%81%A7%E3%81%99%E3%83%BB%E3%81%BE%E3%81%99%E8%AA%BF%E3%80%8D%E3%81%AE%E7%89%B9%E5%BE%B4%E3%81%A8%E4%BD%BF%E3%81%84%E6%96%B9,%E6%96%87%E7%AB%A0%E3%81%AB%E7%94%A8%E3%81%84%E3%82%89%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82"],
+        "js": ["degozaruyo.js"]
+      }
+    ]
+  }
+  
