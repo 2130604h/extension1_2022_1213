@@ -15,6 +15,10 @@
       {
         "matches": ["https://liginc.co.jp/289215"],
         "js": ["degozaruyo.js"]
+      },
+      {
+        "matches": ["https://www.amazon.co.jp/"],
+      "css": ["amazonstyle.css"]
       }
     ]
   }
